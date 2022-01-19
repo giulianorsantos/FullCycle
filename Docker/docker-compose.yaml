@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+
+  fullcycle-rocks:
+    build: .
+    image: giulianosantos/golang-fullcycle-rocks:latest
+    container_name: fullcycle-rocks
